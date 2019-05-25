@@ -1,0 +1,18 @@
+name: material_design_icons
+description: Icons fron the Material Design Community effort
+version: 3.6.95
+author: Jeff Giesbrecht <jeff.giesbrecht@gmail.com>
+homepage: https://github.com/warriorcoder/material_design_icons
+
+environment:
+  sdk: '>=1.19.0 <3.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+flutter:
+  fonts:
+    - family: MaterialDesignIcons
+      fonts:
+        - asset: packages/material_design_icons/fonts/materialdesignicons-webfont.ttf
